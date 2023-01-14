@@ -2,8 +2,9 @@
 </script>
 
 <template>
-    <div class="w-100 h-screen bg-gradient">
+    <div class="w-100 text h-screen bg-gradient">
         <h1>profile</h1>
+        
     </div>
 </template>
 

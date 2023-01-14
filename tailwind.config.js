@@ -5,6 +5,7 @@ export const theme = {
         },
     },
     colors: {
-        primary: "#151515",
+        primarycol: "#151515",
+        textcol: "#ffffff",
     },
 };

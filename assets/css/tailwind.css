@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    :root {
+        /* For rgb(255 115 179 / <alpha-value>) */
+        --color-bgcol: 15 15 15;
+    }
+}
