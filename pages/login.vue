@@ -2,9 +2,9 @@
 </script>
 
 <template>
-    <div class="w-100 h-screen bg-primary">
+    <div class="w-100 text h-screen bg-primarycol">
         <h1>login</h1>
-        <div class="w-100 h-screen blur-xl bg-gradient"></div>
+        <Gradient />
     </div>
 </template>
 
