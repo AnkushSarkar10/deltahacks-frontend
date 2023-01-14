@@ -4,7 +4,7 @@
 <template>
     <div class="w-100 text h-screen bg-primarycol">
     <Gradient />
-    <Navbar class="text-textcol" />
+    <Navbar />
     </div>
 </template>
 
