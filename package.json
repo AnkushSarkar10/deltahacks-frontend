@@ -11,6 +11,8 @@
     "nuxt": "^3.0.0"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.2.0"
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "axios": "^1.2.2",
+    "v-blur": "^1.0.4"
   }
 }
