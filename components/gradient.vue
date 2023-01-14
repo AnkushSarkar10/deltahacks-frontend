@@ -11,7 +11,7 @@
 .gradient {
     background: url("public/image.jpg");
     mix-blend-mode: hard-light;
-    filter: blur(270px);
+    filter: blur(210px);
     transform: rotate(106.73deg);
 }
 </style>
