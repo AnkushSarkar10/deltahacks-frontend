@@ -12,16 +12,9 @@
                 <ul class="flex flex-col lg:flex-row list-none ml-auto">
                     <li class="nav-item">
                         <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                            href="/dashboard">
-                            <i class="fab fa-facebook-square text-lg leading-lg text-white opacity-75" /><span
-                                class="ml-2">Dashboard</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                            href="/login">
-                            <i class="fab fa-twitter text-lg leading-lg text-white opacity-75" /><span
-                                class="ml-2">Logout</span>
+                            href="/profile">
+                            <i class="fab fa-facebook-square text-lg leading-lg text-white opacity-75" /><span class="ml-2"><img src="download.png" alt="download" class="download" height="100px"
+    width="100px"></span>
                         </a>
                     </li>
                 </ul>
@@ -51,5 +44,8 @@ input {
     margin-bottom: 20px;
     background: transparent;
     justify-self: center;
+}
+.downlaod{
+    background: transparent;
 }
 </style>
