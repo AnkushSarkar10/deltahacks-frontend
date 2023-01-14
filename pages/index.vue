@@ -3,8 +3,13 @@
 
 <template>
     <div class="w-100 h-screen bg-primarycol">
-        <h1 class="text-white text-xl">Sup</h1>
         <Gradient />
+
+        <h1 class="text-textcol text-6xl font-extrabold fon uppercase">
+            <h1>Own</h1>
+            <h1>Your</h1>
+            <h1>Learning</h1>
+        </h1>
     </div>
 </template>
 
