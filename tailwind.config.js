@@ -7,5 +7,6 @@ export const theme = {
     colors: {
         primarycol: "#151515",
         textcol: "#ffffff",
+        black: "#000000",
     },
 };

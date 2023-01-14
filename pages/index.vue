@@ -4,6 +4,7 @@
 <template>
     <IndexFirst/>
     <IndexSecond/>
+    <IndexThird/>
 </template>
 
 <style scoped>
