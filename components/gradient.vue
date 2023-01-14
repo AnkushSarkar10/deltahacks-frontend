@@ -3,7 +3,7 @@
 
 <template>
     <!-- gradient -->
-    <div class="fixed bottom-0 h-1/2 w-full gradient"></div>
+    <div class="fixed bottom-0 h-1/2 w-full overflow-hidden gradient"></div>
     <!--  -->
 </template>
 
