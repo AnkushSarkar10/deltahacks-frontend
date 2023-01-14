@@ -3,7 +3,7 @@
 
 <template>
     <!-- gradient -->
-    <div class="fixed bottom-0 -right-200 h-full w-full gradient"></div>
+    <div class="fixed bottom-0 h-1/2 w-full gradient"></div>
     <!--  -->
 </template>
 
@@ -11,7 +11,7 @@
 .gradient {
     background: url("public/image.jpg");
     mix-blend-mode: hard-light;
-    filter: blur(250px);
+    filter: blur(270px);
     transform: rotate(106.73deg);
 }
 </style>
