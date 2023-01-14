@@ -10,7 +10,8 @@
 <style scoped>
 .gradient {
     background: url("/image.jpg");
-    mix-blend-mode: hard-light;
+    /* mix-blend-mode: hard-light; */
+    mix-blend-mode: normal;
     filter: blur(210px);
     transform: rotate(106.73deg);
 }

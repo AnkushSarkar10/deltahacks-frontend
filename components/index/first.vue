@@ -3,10 +3,9 @@
 
 <template>
     <div class="w-100 h-screen bg-primarycol overflow-hidden">
-        <Gradient />
-        <Navbar />
+        
 
-        <div class="flex justify-center z-2">
+        <div class="relative top-40 flex justify-center z-2">
             <div class="relative top-52 flex flex-col gap-5 text-textcol text-7xl font-extrabold fon uppercase">
                 <h1>Own</h1>
                 <h1>Your</h1>
