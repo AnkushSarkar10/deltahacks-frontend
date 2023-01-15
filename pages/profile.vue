@@ -8,7 +8,6 @@ console.log(userData.value);
     <div class="w-100 text h-screen bg-primarycol text-textcol">
         <div class="relative top-52 flex justify-center">
             <div class="flex flex-col gap-10">
-                <ProfilePic/>
                 <h1 class="text-3xl">Name: {{ userData.name }}</h1>
                 <h1 class="text-3xl">Email: {{ userData.email }}</h1>
             </div>
