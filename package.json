@@ -14,7 +14,9 @@
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.2.0",
     "@prisma/client": "4.8.1",
+    "api": "^5.0.6",
     "axios": "^1.2.2",
-    "v-blur": "^1.0.4"
+    "v-blur": "^1.0.4",
+    "verbwire": "^1.0.4"
   }
 }
