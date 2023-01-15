@@ -4,7 +4,7 @@
 
 // const openLink = () => {
 //     console.log('open link');
-    const sdk = require('api')('@verbwire/v1.0#1cmb42lcujqu5q');
+    // const sdk = require('api')('@verbwire/v1.0#1cmb42lcujqu5q');
 
 //     sdk.auth('sk_live_d81b68aa-cf30-4ae9-a022-7de89eaf81bf');
 //     sdk.postNftMintMintfromfile({
