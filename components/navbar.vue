@@ -19,7 +19,7 @@ const logedIn = ref(false);
             <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
                 <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-textcol"
                     href="/">
-                    <img src="logo.svg" alt="logo" class="w-56">
+                    <img src="/logo.svg" alt="logo" class="w-56">
                 </a>
             </div>
             <input type="text" v-model="input" placeholder="Search Courses" class="pb-3 focus:outline-none"/>

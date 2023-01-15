@@ -6,7 +6,7 @@
 
         <div class="flex justify-center">
             <div class="relative top-32">
-                <img src="chat.svg" alt="ndjl">
+                <img src="/chat.svg" alt="ndjl">
             </div>
 
             <div class="relative top-52 left-24 flex flex-col gap-5 text-textcol text-7xl font-extrabold text-right uppercase">

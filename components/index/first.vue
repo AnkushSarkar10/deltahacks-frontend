@@ -12,7 +12,7 @@
                 <h1>Learning</h1>
             </div>
             <div class="relative left-40">
-                <img src="comp.svg" alt="ndjl">
+                <img src="/comp.svg" alt="ndjl">
             </div>
         </div>
     </div>
