@@ -1,8 +1,23 @@
+<script>
+let input = ref("");
+const searchCourses = () => {
+    return fetch(`https://api.coursera.org/api/catalog.v1/courses?q=search&query=${input}`)
+        .then(response => response.json())
+        .then(data => {
+            return data.courses;
+        });
+}
+// not touchinf the code above
+const logedIn = ref(false);
+
+</script>
+
+
 <template>
     <nav class="absolute top-0 right-0 w-full flex text-3xl flex-wrap items-center justify-between px-2 py-3 bg-pink-500 mb-3 text-textcol">
         <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
             <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
-                <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+                <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-textcol"
                     href="/">
                     <img src="logo.svg" alt="logo" class="w-56">
                 </a>
@@ -23,16 +38,7 @@
     </nav>
 </template>
 
-<script>
-let input = ref("");
-const searchCourses = () => {
-    return fetch(`https://api.coursera.org/api/catalog.v1/courses?q=search&query=${input}`)
-        .then(response => response.json())
-        .then(data => {
-            return data.courses;
-        });
-}
-</script>
+
 
 <style scoped>
 input {
@@ -48,7 +54,4 @@ input {
     justify-self: center;
 }
 
-.downlaod {
-    background: transparent;
-}
 </style>

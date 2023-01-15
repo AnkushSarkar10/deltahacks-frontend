@@ -1,0 +1,25 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider          = "postgresql"
+  url               = env("DATABASE_URL")
+  shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
+}
+
+model courses {
+  Name   String @id @unique
+  Price  Float
+  Author String
+  Rating Int
+}
+
+model users {
+  Uuid     Int     @id @unique @default(autoincrement())
+  Name     String
+  Email    String
+  Password String
+  Pfp      String?
+  Courses  String[]
+}
