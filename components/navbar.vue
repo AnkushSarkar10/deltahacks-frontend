@@ -29,7 +29,7 @@ const logedIn = ref(false);
                         <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                             href="/profile">
                             <span
-                                class="ml-2"><img src="download.png" alt="download" class="download w-20"></span>
+                                class="ml-2"><ProfilePic /></span>
                         </a>
                     </li>
                 </ul>
