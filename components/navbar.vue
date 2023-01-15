@@ -25,6 +25,9 @@ const logedIn = ref(false);
             <input type="text" v-model="input" placeholder="Search Courses" class="pb-3 focus:outline-none"/>
             <div>
                 <ul class="flex flex-col lg:flex-row list-none ml-auto">
+                    <a href="/course" class="nav-item">
+                       <button class="mt-7 mr-3 text-2xl font-bold">My Courses</button>
+                    </a>
                     <li class="nav-item">
                         <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                             href="/profile">
